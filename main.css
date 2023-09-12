@@ -1,0 +1,53 @@
+html , body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+   
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+.containerAll {
+    display: grid;
+    grid-template-rows: 30px 150px 1fr 100px;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+#displayScore {
+    grid-row: 1;
+    margin-top: 10px;
+    color: red;
+    border: 3px solid red;
+    padding: 15px;
+    
+}
+#question {
+    grid-row: 2;
+    
+}
+.containerQs {
+    grid-row: 3;
+    display: flex;
+    
+    flex-direction: column;
+    row-gap: 75px;
+    
+}
+#submit {
+    grid-row: 4;
+    margin-top: 60px;
+    height: 30px;
+    width: 200px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+.q1 .q2 .q3 .q4 {
+    display: inline;
+}
+
