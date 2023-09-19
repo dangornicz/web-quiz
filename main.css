@@ -22,8 +22,9 @@ body {
 #displayScore {
     grid-row: 1;
     margin-top: 10px;
-    color: red;
-    border: 3px solid red;
+    text-align: center;
+    color: rgb(41, 177, 41);
+    border: 3px solid rgb(41, 177, 41);
     padding: 15px;
     
 }
